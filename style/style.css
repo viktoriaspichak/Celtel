@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Univers Condensed BQ';
+    src: url('../fonts/Univers Condensed BQ Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source Sans Pro Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/Source Sans Pro Regular.ttf') format('truetype');
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Source Sans Pro, sans-serif
+}
+.main-head{
+    max-width: 1920px;
+    margin: 20px 0px 20px 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.name{
+    font-family: Univers Condensed BQ, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #002F87;
+    margin-left: 350px;
+
+
+
+
+}
+.surname{
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #002F87;
+    margin-right: 270px;
+
+
+}
+
+.gradient-bg {
+    background: linear-gradient(
+            217deg,
+            #1243F3,
+            rgba(255, 0, 0, 0) 70.71%
+    ), linear-gradient(127deg, #00ffff, rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(0deg, #B821FF, rgba(0, 0, 255, 0) 70.71%);
+    height: 100vh;
+    padding-bottom: 80px;
+}
+
+.girl{
+   display: flex;
+    justify-content: center;
+    position: relative;
+}
+.girl img {
+    position: absolute;
+    top: -70px;
+    width: 35%;
+}
+
+
+.text-and-button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    background-color: #FFFFFF;
+    max-width: 600px;
+    width: 40%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.text-and-button p{
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 10px;
+
+
+}
+
+.text-and-button h2 {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 13px;
+
+
+}
+
+.text-and-button button {
+    padding: 20px 40px;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #7B1FA2;
+    border-radius: 10px;
+
+}
+@media screen and (min-width: 768px) and (max-width: 1240px) {
+    h1{
+        font-size: 45px;
+    }
+    .main-head {
+        justify-content: space-between;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+
+    .name {
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .surname {
+        margin-right: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+    .girl img {
+        width: 50%;
+    }
+
+    .text-and-button h2{
+        font-size: 45px;
+
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .name {
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .surname {
+        margin-right: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .main-head{
+        padding: 20px;
+    }
+    .main-head span{
+        font-size: 30px;
+    }
+
+
+    .text-and-button {
+        width: 80%;
+        font-size: 24px;
+        top: 70%;
+        left: 50%;
+    }
+
+    .girl img {
+        width: 60%;
+    }
+
+    .text-and-button h2{
+        font-size: 45px;
+    }
+}
+
+@media screen and  (max-width: 580px){
+    h1{
+        font-size: 40px;
+    }
+    .text-and-button p{
+        font-size: 20px;
+    }
+    .text-and-button h2{
+        font-size: 40px;
+    }
+    .main-head span{
+        font-size: 20px;
+    }
+
+
+}
+@media screen and  (max-width: 490px){
+
+    .text-and-button {
+        top: 70%
+    }
+    .text-and-button p{
+        font-size: 20px;
+    }
+    .text-and-button h2{
+        font-size: 40px;
+    }
+    .girl img{
+        width: 100%;
+    }
+    .text-and-button button {
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+
+
+    }
+
+
+}
+@media screen  and (max-width: 320px){
+    .text-and-button {
+        top: 60%
+    }
+    .girl img{
+        width: 100%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .text-and-button h2{
+        font-size: 20px;
+    }
+    .text-and-button p{
+        font-size: 10px;
+    }
+    .text-and-button button {
+        padding: 5px 10px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+
+
+    }
+
+}
+
