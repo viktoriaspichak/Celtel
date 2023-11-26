@@ -24,7 +24,7 @@ h1{
 }
 .main-head{
     max-width: 1920px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0 20px 0;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
@@ -139,7 +139,7 @@ h1{
     border-radius: 10px;
 
 }
-@media screen and (min-width: 768px) and (max-width: 1240px) {
+@media screen  and (max-width: 1240px) {
     h1{
         font-size: 45px;
     }
@@ -172,8 +172,32 @@ h1{
     }
 
 }
+@media screen and (max-width: 1007px){
+    .text-and-button h2{
+        font-size: 42px;
 
-@media screen and (max-width: 767px) {
+    }
+    .girl img {
+        width: 50%;
+    }
+
+
+}
+@media screen  and (max-width: 980px){
+    .text-and-button h2{
+        font-size: 35px;
+
+}
+    .text-and-button {
+        width: 90%;
+        font-size: 24px;
+        top: 80%;
+
+    }
+    .girl img {
+        width: 60%;
+    }
+@media screen and (max-width: 780px) {
     .name {
         margin-left: 0;
         margin-bottom: 10px;
@@ -209,7 +233,8 @@ h1{
     }
 }
 
-@media screen and  (max-width: 580px){
+
+@media screen and  (max-width: 630px){
     h1{
         font-size: 40px;
     }
@@ -221,6 +246,9 @@ h1{
     }
     .main-head span{
         font-size: 20px;
+    }
+    .girl img{
+        width: 80%;
     }
 
 
@@ -250,7 +278,7 @@ h1{
 
 
 }
-@media screen  and (max-width: 320px){
+@media screen  and (max-width: 380px){
     .text-and-button {
         top: 60%
     }
@@ -275,5 +303,5 @@ h1{
 
     }
 
-}
+}}
 
