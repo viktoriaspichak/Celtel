@@ -185,19 +185,19 @@ h1{
 }
 @media screen  and (max-width: 980px){
     .text-and-button h2{
-        font-size: 35px;
+        font-size: 38px;
 
 }
     .text-and-button {
         width: 90%;
         font-size: 24px;
-        top: 80%;
+        top: 82%;
 
     }
     .girl img {
         width: 60%;
     }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 790px) {
     .name {
         margin-left: 0;
         margin-bottom: 10px;
